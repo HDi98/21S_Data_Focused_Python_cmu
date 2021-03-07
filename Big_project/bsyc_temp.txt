@@ -1,0 +1,2014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta charset="utf-8"/><meta content="IE=9; IE=8; IE=7; IE=EDGE" http-equiv="X-UA-Compatible"/><title>
+	
+    Appliance Energy Use Chart | Silicon Valley Power
+
+</title>
+<meta content="width=device-width" name="viewport"/>
+<link href="/DefaultContent/Default/StyleBundleDesignTheme.cssbnd?v=C8TGMqEb5sU2x-O0fQ4MtI-72ZQauQwYpC1nmn3uX441" rel="stylesheet"/>
+<link href="/Project/Contents/SVP/StyleBundleDesignTheme.cssbnd?v=EU2M542r7dAl8IVyVD-RnpjxLbaOFFErMorXnANKCJs1" rel="stylesheet"/>
+<link href="/Areas/Admin/Content/StyleBundleFrontendExtra.cssbnd?v=acwZKNE3RPD1pekbX4Wz3QDE28KLfvHqhg0VPeQSJxg1" rel="stylesheet"/>
+<link href="/DefaultContent/Default/Print.cssbnd?v=47rmsGcOk4CIHfb2HDg7t9s31eiFEWHej5QI1ytFlII1" media="print" rel="stylesheet"/>
+<link href="/Project/Contents/SVP/Print.cssbnd?v=UQ-WbTYt6-fou9fUDPY3am5Wx56zuyJ_MaQzEr8Zmt01" media="print" rel="stylesheet"/>
+<script src="/Scripts/ScriptBundleFAllInOne.jsbnd?v=xv2aD3Pc5CgPPfXb_wpmN066eMQxj51Xt1og7hg7vmM1"></script>
+<script>
+    function handleExternalURL() { };
+</script>
+<script>window.visionOptions = {virtualApplicationPath:'/',logOnPath:'Admin/LogOn',logOffPath:'Admin/LogOff',enableSessionTimeout:false,sessionTimeoutInMinutes:50,timeToAlertBeforeSessionTimeoutInMinutes:5,extendSessionTimeoutPath:'Admin/Account/ExtendSessionTimeout',mainFolderPath:'/Project/Contents/Main/',centerLocation:'Santa Clara, CA', siteID:2, navigationID:1922, isHomePage:false, emergencyNoticeChanged:true, loggedIn:false, showTopTips:true, currentDesignFolderPath:'/Project/Contents/SVP/', useDesignThemFontSizeCss:false , clientResponsiveTableEnabled:true, imageUrl:'/Home/ShowPublishedImage/', engagementAdminEndPoint:'/Admin/Engagement/', visionLiveAdminEndPoint:'/Admin/Components/', cmsAdminEndPoint:'/Admin/', enableSplashUrl:true, eSignatureView: '/Shared/SignatureView', socialMediaInfo :{ twitter : { maxLength : 280  } }, baseImageUrl:'/Home/ShowPublishedImage' };;window.visionApps={"cms_core":{"DateFormat":"MM/dd/yyyy","TimeFormat":"h:mm TT","PhoneFormat":"999-999-9999","OrganizationName":"Silicon Valley Power","TimeAMFormat":"AM","TimePMFormat":"PM","GoogleReCaptchaPublicKey":"6LcmMAkUAAAAANnO3quwl9QKHmaZo_JgheY4fL8u"}};;window.visionApps.token="eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiayI6IlRMTTRlbmRzLyt3dGhPODh1VU8vM0E9PSJ9.IwyPh8095GWUevzmT6vGomIBNwMyeVCQ-NmGSoeRDoUsBbzWGlLwcglvli1_oqvkmWwuKsqLFPr_ZyFudebaa44jTDOwV4eK._jYgvOXbatMNfscH-By2Jg.epL46LmwAeqXrVh4GoqjZVeaiY5_xRBv5dYBBu37uwxwSABVzNMMdbJQ6Tz9Q4fRoORJI3av32asBUGQG--4fbU_LkLutf7llBnlAQuhDpktK73fFdACfDzo40rNjh2kBx94flFmaZ7zY931-jHC8ZRW1AjzNwHvplF8_dbvHPDWhs2ZXWA0OADlYjahwn2KExgJ1g2KHRlchftDB9RKJpjHUialDDJ_FrJDEIHtrQE.mtNNzTRGbYrEkKiRtxBYgoxBjtU4ZVQaPuO69XR584w";(function(window){window.cmsCoreConfig={}; (function(config){ (function(window){window.coreComponentFormConfig={"apiEndPoint":"https://form.visioninternet.com/"};})(window);; })(window.cmsCoreConfig); })(window);(function(window){window.visionLiveConfig={}; (function(config){ config.flexibleComponent={"serverURL":"https://flex.visioninternet.com/"};; })(window.visionLiveConfig); })(window);</script>
+<script type="text/javascript">
+        // added the htmlEncode and htmlDecode method to fixed the js load order issue.
+        $.extend($, {
+            htmlEncode: function (html) {
+                var temp = document.createElement("div");
+                (temp.textContent != undefined) ? (temp.textContent = html) : (temp.innerText = html);
+                var output = temp.innerHTML;
+                temp = null;
+                return output;
+            },
+            htmlDecode: function (text) {
+                var temp = document.createElement("div");
+                temp.innerHTML = text;
+                var output = temp.innerText || temp.textContent;
+                temp = null;
+                return output;
+            }
+        });    
+        $(function () {
+            //script for view full site button, placed here to keep firefox for mobile devices happy
+            var viewFullElement = document.getElementById("view-full");           
+            if (viewFullElement) {
+                viewFullElement.innerHTML = "View Full Site";
+                viewFullElement.className = "mobile_only fullsite";
+            }
+        });
+    </script>
+<!--[if lt IE 9]>
+        <script src="/Scripts/ScriptBundleOthers.jsbnd?v=3Q7FhTQfRrKx8h7Kvdbh9bBluzlNlXKsFAERd4g8_TY1"></script>
+
+	<![endif]-->
+<link href="/Project/Contents/Main/x-small.css" id="active_font" rel="stylesheet" type="text/css"/>
+<link href="/favicon.ico" rel="Shortcut Icon"/>
+<!-- Google Universal Analytics -->
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-3620615-1', 'auto');
+    ga('require', 'displayfeatures');
+    //TFS 21771, Enhanced Link Attribution, https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-link-attribution
+    ga('require', 'linkid'); 
+    ga('set', 'dimension1', 'Appliance Energy Use Chart, ID:1922');
+    ga('set', 'dimension2', '2021');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Universal Analytics -->
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<script>
+$(window).load(function() {
+    
+    $('.mainSpan_wrapper_home, .mainSpan_wrapper').fadeIn(400, function () { });
+    //$('..mainSpan_wrapper').fadeIn(400, function () { });
+    $(".social_icons li, .dept_social_icons a")
+       .mouseover(function () {
+           $(this).find("img").attr("src", $(this).attr("data-hover-src"));
+           console.log('hover');
+       })
+       .mouseout(function () { $(this).find("img").attr("src", $(this).attr("data-src")); });
+
+  
+});
+
+//if (visionOptions.mainFolderPath == "/SantaClara6_SVP/Project/Contents/Main/") {
+//    console.log('SVP!');
+
+//    $intTitle = $('.title_widget h1').detach();
+//    $('.title_widget').append($intTitle);
+
+//}
+
+function switchTitlePlace() {
+    if (visionOptions.siteID == 2 || visionOptions.siteID == 4) {
+        //console.log('SVP!');
+
+        $intTitle = $('.title_widget h1').detach();
+        $intTitle.insertAfter('.title_right');
+
+    }
+};
+
+$(function () {
+    switchTitlePlace();
+});
+
+</script>
+<script>
+        $(function () {
+            $.frontendSessionManager({
+                virtualApplicationPath:"/",
+                backendUserLogin: false,
+                frontendUserLogin: false,
+                sessionTimeoutInMinutes:50,
+                timeToAlertBeforeSessionTimeoutInMinutes:5,
+                extendSessionTimeoutPath:"Home/FrontEndExtendSessionTimeout"
+            }).setTimerForSessionExpiration();
+        });
+    </script>
+<link href="https://customer.cludo.com/css/templates/v2.1/essentials/cludo-search.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_11124.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script></head>
+<body class="front_end_body site_svpsitetemplate">
+<link href="/DefaultContent/Default/StyleBundleAngularLib.cssbnd?v=sED2Qjf38ysQJYZW_ZvZj-7IGXKm4NOJhdA51oOtG5A1" rel="stylesheet"/>
+<script>
+    window.frontendCommonConfig = {
+        loginPage: 'https://www.siliconvalleypower.com/sys/sso/login',
+        popupLoginPage: '/sys/sso/popuplogin',
+        photoBaseUrlForPeople: 'https://www.siliconvalleypower.com/sys/sso/ShowProfilePhoto?id=',
+        photoBaseUrl: 'https://www.siliconvalleypower.com/Home/ShowPublishedImage/',
+        token: window.visionApps ? window.visionApps.token : '',
+        cmsUserLogged: false,
+        anonymousAvatar: 'https://www.siliconvalleypower.com/DefaultContent/Default/_gfx/anonymous.png',
+        loginUser: {
+            name: '',
+            avatar: '',
+            userID: null,
+            firstName: '',
+            lastName: '',
+            imageID: null,
+            email: '',
+        }
+    };
+</script>
+<script>
+    //It's before the AngularJSLib Loading, which might be update in the AngularJSLib bundle.
+    window.viPredefinedModules = [];
+</script>
+<script src="/Scripts/ScriptBundleAngularLib.jsbnd?v=ZY8SoO40tClD_L7_09AuBWeIcXjIMYmaCb68b4xbL3Q1"></script>
+<script>
+    (function (window, angular) {
+
+        $("body").attr("ng-app", "vi.cms");
+        
+        window.viCurrentModule = angular.module("vi.cms", window.viPredefinedModules || []);
+    })(window, angular);
+</script>
+<script src="/Scripts/frontendCoreBundle.jsbnd?v=g3jftjuIaNapQMXh3I_PO6AJVjcGUIHRrSkn_10w_j81"></script>
+<!--stopindex-->
+<noscript>
+<div class="noscript_alert"><span>Please enable JavaScript in your browser for a better user experience.</span></div>
+</noscript>
+<!--startindex-->
+<div class="vi-temp-message-container" style="display:none;"></div>
+<!--stopindex-->
+<div class="alert_container">
+<a class="hide" data-action="/Home/SetTopTipCookie" id="alert_controls">Show/Hide</a>
+<div class="important_alert_wrapper">
+<div class="alert_right">
+<div class="important_alert"><p style="font-size: 16px; font-weight: bold;">For local developments on COVID-19 and available City services &amp; programs, visit <a href="/?navid=14112" style="font-size: 16px; font-weight: bold;">SantaClaraCA.gov/Coronavirus</a>.</p></div>
+</div>
+</div>
+</div>
+<!--startindex-->
+<div class="sitewrapper site_template mainSpan_wrapper">
+<div class="mainSpan" id="mainSpan_wrapper_Screen">
+<!--stopindex-->
+<div id="skipnav" tabindex="-1">
+<a href="#sitebody" tabindex="-1">
+<img alt="Skip to page body" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+<a href="/home" tabindex="-1" title="Home">
+<img alt="Home" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+<a href="/residents" tabindex="-1" title="Residents">
+<img alt="Residents" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+<a href="/businesses" tabindex="-1" title="Businesses">
+<img alt="Businesses" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+<a href="/sustainability-1895" tabindex="-1" title="Sustainability">
+<img alt="Sustainability" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+<a href="/svp-and-community" tabindex="-1" title="SVP and Community">
+<img alt="SVP and Community" src="/DefaultContent/Default/_gfx/spacer.gif"/></a>
+</div>
+<!--startindex-->
+<header class="" id="siteheader">
+<!--stopindex-->
+<h1 class="wcag_only">Silicon Valley Power</h1>
+<a href="/home" id="home_link">Home</a>
+<a href="http://www.santaclaraca.gov" id="mainHome_link">mainHome</a>
+<a class="menu_trigger mobile_only" href="javascript:void(0);">Menu</a>
+<!--startindex-->
+<div class="site_template_column header_column" id="headercolumn">
+<!--stopindex-->
+<div class="clearfix" id="searchbox">
+<label for="search_text" style="display: none;">Search</label>
+<input id="search_text" placeholder="Search..." title="Search..." type="text"/>
+<a class="go" href="javascript:void(0);"><img alt="Search" src="/Project/Contents/svp/_gfx/cmn/go_button.png"/></a>
+</div>
+<script>
+	    $(function () {
+	        $("#searchbox input").keydown(function (e) {
+	            if (e.keyCode == 13) {
+	                $("#searchbox a").click();
+	            }
+	        });
+	        $("#searchbox a").click(function () {
+	            var keyWord = $("#searchbox input#search_text").val();
+	            if (keyWord.length <= 0) { return false; }
+	            keyWord  = keyWord.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+	            keyWord = encodeURIComponent(keyWord.replace("<"," ").replace(">"," ") );
+	            var link = 'https://www.siliconvalleypower.com/svp-and-community/search-results';
+                if (link.indexOf("?") >= 0 )
+                    link = link + "#&cludoquery=" + keyWord + "&cludopage=1";
+                else
+                    link = link + "#&cludoquery=" + keyWord + "&cludopage=1";
+                 
+                if (window.location.href.indexOf('/svp-and-community/search-results') > 0) {
+                    window.location.href = link;
+                    window.location.reload(false);
+                } else { 
+                    window.location.href = link;
+                }
+	        });
+	    });
+	</script>
+<!--startindex-->
+<!--stopindex-->
+<div id="top_nav" ng-controller="OutageController">
+<a href="/svp-and-community/outages-and-alerts/current-outages" id="outage_icon" ng-cloak="" ng-if="found"></a>
+<a href="/svp-and-community/outages-and-alerts/current-outages" target="_blank">Outages &amp; Alerts</a>
+<a href="/?navid=3000" target="_blank">My Account</a>
+<a href="/svp-and-community/contact-us" target="_self">Contact Us</a>
+</div>
+<div class="translatebox desktop_only">
+<div id="google_translate_element"></div>
+</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'en'}, "google_translate_element");
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+<style>
+#google_translate_element a {
+	text-decoration:none;
+}
+</style>
+<script type="text/javascript">
+    function changeLanguageText() {
+        if ($('.goog-te-combo option:first-child').text() == "Select Language") {
+            $('.goog-te-combo option:first-child').html('Translate');
+            $('.translatebox').fadeTo("slow", "1");
+        } else {
+            setTimeout(changeLanguageText, 50);
+        }
+    }
+    $(document).ready(function () {
+        changeLanguageText();
+    });
+</script>
+<script>
+    var outageApp = angular.module("outageApp", []);
+
+(function(app){
+  "use strict";
+  
+    window.viCurrentModule.requires.push("outageApp");
+    
+    var params = {
+                "pageSize": 40,
+                "pageNumber": 1,
+                "sortOptions": [],
+                "searchText": "",
+                "searchFields": "",
+                "searchOperator": "OR",
+                "searchSeparator": ",",
+                "Data": {
+                    "componentGuid": "0fbe6dc3-3fae-4cf7-8059-3cfe524d0b12",
+                    "listUniqueName": "5A5BUTL2LXYO6WO"
+                },
+                "filterOptions": [{
+                        "field": "Type",
+                        "value": "Outage"
+                    }]
+            };
+            
+    app.controller('OutageController', ['flexComponentService', '$scope', function(flexComponentService, $scope) {
+        $scope.found = false;
+        flexComponentService.loadListInfo(params)
+            .then(function (response) {
+                $scope.found = response.data.records.items.find(function(o){
+                    return o.Type === 'Outage';
+                });
+                
+            });
+    }]);
+    
+})(outageApp);
+</script>
+<!--startindex-->
+</div>
+</header>
+<div class="standardlayout clearfix" id="sitebody">
+<div class="column top_col clearfix" id="ColumnUserControl1">
+<!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="1"WidgetStart!!-->
+<!--stopindex-->
+<link href="/DefaultContent/Default/StyleBundleMegaMenuDropDown.cssbnd?v=CD_eN-fYJU8KKPigt6x-Ey-z8_WTsoZ7bqx2pLTZtXU1" rel="stylesheet"/>
+<link href="/Project/Contents/SVP/StyleBundleMegaMenuDropDown.cssbnd?v=SUeYDriwtp95geRiNPDLnUCQYBudfDAiCvCONMWHHXo1" rel="stylesheet"/>
+<nav class="advancedmegamenu mainnav" id="menuContainer_1_0_3651"><ul class="dropdownmenu clearfix"><li class="megamenu_first" id="dropdownrootitem1"><a class="dropdownrootitem1" data-navid="1806" href="/home" target="_self" title="Home">Home</a></li><li class="megamenu_first" id="dropdownrootitem2"><a class="dropdownrootitem2" data-navid="1896" href="/residents" target="_self" title="Residents">Residents</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6237" href="/residents/my-utilities-account" target="_blank" title="My Utilities Account">My Utilities Account</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="1990" href="/residents/payment-assistance" target="_self" title="Payment Assistance">Payment Assistance</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14170" href="/residents/payment-assistance/covid-19" target="_self" title="COVID-19 Electric Relief Program">COVID-19 Electric Relief Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14171" href="/residents/payment-assistance/f-r-a-p-program" target="_self" title="Apply for Financial Rate Assistance Program online">Apply for Financial Rate Assistance Program online</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="1926" href="/residents/rates-and-fees" target="_self" title="Rates and Fees">Rates and Fees</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6214" href="/residents/rebates-6214" target="_self" title="Rebates">Rebates</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="1919" href="/residents/save-energy" target="_self" title="Save Energy">Save Energy</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1920" href="/residents/save-energy/home-energy-audit" target="_self" title="Home Energy Audit">Home Energy Audit</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1922" href="/residents/save-energy/appliance-energy-use-chart" target="_self" title="Appliance Energy Use Chart">Appliance Energy Use Chart</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="6216" href="/residents/save-energy/energy-saving-tips-6216" target="_self" title="Energy Saving Tips">Energy Saving Tips</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1924" href="/residents/save-energy/tool-lending-library" target="_self" title="Tool Lending Library">Tool Lending Library</a></li></ul></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div class="content_area normal_content_area clearfix" id="widget_20"><table class="subtitle" style="width: 100%; background-color: rgb(195, 214, 155); padding: 3px; margin: 3px;">
+<tbody>
+<tr>
+<td class="" style="text-align: center; vertical-align: top;"><br/>
+<a href="/?navid=2169" target="_blank"><img alt="My Utilities Account" src="/Home/ShowPublishedImage/62418/637033537659100000" style="vertical-align: top;"/></a><br/>
+<p><a href="/?navid=2169" target="_blank">Sign in to <br/>
+            your utilities account<span class="subtitle"></span></a></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem3"><a class="dropdownrootitem3" data-navid="1897" href="/businesses" target="_self" title="Businesses">Businesses</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6238" href="/businesses/my-utilities-account" target="_blank" title="My Utilities Account">My Utilities Account</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="7836" href="/businesses/rebates" target="_self" title="Rebates">Rebates</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="10958" href="/businesses/save-money" target="_self" title="Save Money">Save Money</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2001" href="/businesses/rates-and-fees" target="_self" title="Rates and Fees">Rates and Fees</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2844" href="/businesses/rate-calculator" target="_self" title="Rate Calculator">Rate Calculator</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2007" href="/businesses/svp-fiber-connect" target="_self" title="SVP Fiber Connect">SVP Fiber Connect</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2491" href="/businesses/energy-benchmarking" target="_self" title="Energy Benchmarking">Energy Benchmarking</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div class="content_area normal_content_area clearfix" id="widget_23"><table class="subtitle" style="width: 100%; background-color: rgb(195, 214, 155); padding: 3px; margin: 3px;">
+<tbody>
+<tr>
+<td class="" style="text-align: center; vertical-align: top;">
+<br/>
+<a href="/?navid=2169" target="_blank"><img alt="My Utilities Account" src="/Home/ShowPublishedImage/62418/637033537659100000" style="vertical-align: top;"/></a><br/>
+<p><a href="/?navid=2169" target="_blank">Sign in to <br/>
+            your utilities account<span class="subtitle"></span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br/></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem4"><a class="dropdownrootitem4" data-navid="1895" href="/sustainability-1895" target="_self" title="Sustainability">Sustainability</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="7796" href="/sustainability/electric-vehicles-7796" target="_self" title="Electric Vehicles">Electric Vehicles</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14280" href="/sustainability/electric-vehicles/rebates-incentives" target="_self" title="Rebates &amp; Incentives">Rebates &amp; Incentives</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14281" href="/sustainability/electric-vehicles/charging-stations-rates-and-incentives" target="_self" title="Charging Stations, Rates and Incentives">Charging Stations, Rates and Incentives</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14318" href="/sustainability/electric-vehicles/helpful-links-resources" target="_self" title="Helpful Links &amp; Resources">Helpful Links &amp; Resources</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="7798" href="/sustainability/santa-clara-green-power" target="_self" title="Santa Clara Green Power">Santa Clara Green Power</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2612" href="/sustainability/santa-clara-green-power/green-power-for-your-home" target="_self" title="Green Power for Your Home">Green Power for Your Home</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2615" href="/sustainability/santa-clara-green-power/green-power-for-your-business" target="_self" title="Green Power for Your Business">Green Power for Your Business</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2611" href="/sustainability/santa-clara-green-power/green-power-facilities" target="_self" title="Green Power Facilities">Green Power Facilities</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="8405" href="/sustainability/solar" target="_self" title="Solar">Solar</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="8407" href="/sustainability/solar/steps-to-going-solar" target="_self" title="Steps to Going Solar">Steps to Going Solar</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="6205" href="/sustainability/solar/incentives-and-financing-options" target="_self" title="Incentives and Financing Options">Incentives and Financing Options</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="6206" href="/sustainability/solar/understanding-your-bill" target="_self" title="Understanding Your Bill">Understanding Your Bill</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="8406" href="/sustainability/solar/interconnection-requirements" target="_self" title="Interconnection Requirements">Interconnection Requirements</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2014" href="/sustainability/neighborhood-solar-program" target="_self" title="Neighborhood Solar Program">Neighborhood Solar Program</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6312" href="/sustainability/commitment-to-renewable-energy" target="_self" title="Commitment to Renewable Energy">Commitment to Renewable Energy</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14123" href="/sustainability/commitment-to-renewable-energy/building-electrification-and-electric-vehicle-reach-codes" target="_self" title="Building Electrification and Electric Vehicle Reach Codes">Building Electrification and Electric Vehicle Reach Codes</a></li></ul></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"> <section class="small_box news_box mobile_list">
+<h3 class="box_title mobile_header">News</h3>
+<div class="box_content clearfix">
+<ul>
+<li>
+<a href="/Home/Components/News/News/42417/6271?backlist=%2f" target="_self">
+        Electric vehicle rebates now available for qualified Silicon Valley Power Customers!
+    </a>
+<p class="item_smalltext">
+2/1/2021 9:00:00 AM        </p>
+</li>
+<li>
+<a href="/Home/Components/News/News/42369/6271?backlist=%2f" target="_self">
+        News Release: Power Up on Solar Power, Santa Clara
+    </a>
+<p class="item_smalltext">
+1/20/2021 10:30:00 AM        </p>
+</li>
+<li>
+<a href="/Home/Components/News/News/42245/6271?backlist=%2f" target="_self">
+        In Case You Missed It: Electric Vehicles 101 Virtual Meeting
+    </a>
+<p class="item_smalltext">
+12/21/2020 11:30:00 AM        </p>
+</li>
+</ul>
+<a class="box_bottomlink" href="/svp-and-community/news-and-announcements/svp-news-list">More News</a>
+</div>
+</section>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem5"><a class="dropdownrootitem5" data-navid="1898" href="/svp-and-community" target="_self" title="SVP and Community">SVP and Community</a><div class="megamenu_container widthcontainer4col"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="1965" href="/svp-and-community/about-svp" target="_self" title="About SVP">About SVP</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2022" href="/svp-and-community/about-svp/power-content-label" target="_self" title="Power Content Label">Power Content Label</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14355" href="/svp-and-community/about-svp/electric-generation-locations" target="_self" title="Electric Generation Locations">Electric Generation Locations</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2024" href="/svp-and-community/about-svp/utility-fact-sheet" target="_self" title="Utility Fact Sheet">Utility Fact Sheet</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1966" href="/svp-and-community/about-svp/strategic-plan" target="_self" title="Strategic Plan">Strategic Plan</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="4955" href="/svp-and-community/about-svp/integrated-resource-plan" target="_self" title="Integrated Resource Plan">Integrated Resource Plan</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2956" href="/svp-and-community/about-svp/system-reliability" target="_self" title="System Reliability">System Reliability</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2034" href="/svp-and-community/about-svp/privacy-policy" target="_self" title="Privacy Policy">Privacy Policy</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1967" href="/svp-and-community/about-svp/our-story" target="_self" title="Our Story">Our Story</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2025" href="/svp-and-community/about-svp/faqs" target="_self" title="FAQS">FAQS</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2240" href="/svp-and-community/about-svp/rfps-bids" target="_self" title="RFPs &amp; Bids">RFPs &amp; Bids</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="1960" href="/svp-and-community/outages-and-alerts" target="_self" title="Outages and Alerts">Outages and Alerts</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14247" href="/svp-and-community/outages-and-alerts/report-an-outage" target="_self" title="Report a Power Outage">Report a Power Outage</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1972" href="/svp-and-community/outages-and-alerts/current-outages" target="_self" title="Current Outages">Current Outages</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1963" href="/svp-and-community/outages-and-alerts/in-case-of-a-power-outage" target="_self" title="In Case of a Power Outage">In Case of a Power Outage</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1973" href="/svp-and-community/outages-and-alerts/outage-history" target="_self" title="Outage History">Outage History</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1962" href="/svp-and-community/outages-and-alerts/power-alerts" target="_self" title="Power Alerts">Power Alerts</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="1975" href="/svp-and-community/outages-and-alerts/power-quality" target="_self" title="Power Quality">Power Quality</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6336" href="/svp-and-community/safety" target="_self" title="Safety">Safety</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="14211" href="/svp-and-community/safety/utilities-response-to-covid-19" target="_self" title="Utilities Response to COVID-19">Utilities Response to COVID-19</a></li><li class="megamenu_level2"><a class="megamenu_level2" data-navid="6337" href="/svp-and-community/safety/pg-e-s-public-safety-power-shutoff-program" target="_self" title="PG&amp;E's Public Safety Power Shutoff Program">PG&amp;E's Public Safety Power Shutoff program</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2230" href="/svp-and-community/job-opportunities" target="_blank" title="Job Opportunities">Job Opportunities</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2036" href="/svp-and-community/rules-and-regulations" target="_self" title="Rules and Regulations">Rules and Regulations</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2065" href="/svp-and-community/news-and-announcements" target="_self" title="News and Announcements">News and Announcements</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2656" href="/svp-and-community/news-and-announcements/media-resources" target="_self" title="Media Resources">Media Resources</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="6243" href="/svp-and-community/projects" target="_self" title="Projects">Projects</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2043" href="/svp-and-community/energy-education" target="_self" title="Energy Education">Energy Education</a></li><li class="megamenu_level1"><a class="megamenu_level1" data-navid="2050" href="/svp-and-community/contact-us" target="_self" title="Contact Us">Contact Us</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" data-navid="2117" href="/svp-and-community/contact-us/customer-feedback" target="_self" title="Customer Feedback">Customer Feedback</a></li></ul></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"> <section class="small_box news_box mobile_list">
+<h3 class="box_title mobile_header">News</h3>
+<div class="box_content clearfix">
+<ul>
+<li>
+<a href="/Home/Components/News/News/42522/6271?backlist=%2f" target="_self">
+        News Release: Silicon Valley Power Activates 40-Megawatt Solar Project - Enough to Power more than 16k Average Santa Clara Homes
+    </a>
+<p class="item_smalltext">
+2/25/2021 9:00:00 AM        </p>
+</li>
+<li>
+<a href="/Home/Components/News/News/42511/6271?backlist=%2f" target="_self">
+        City of Santa Clara Approves Clean Hydropower Agreement
+    </a>
+<p class="item_smalltext">
+2/16/2021        </p>
+</li>
+<li>
+<a href="/Home/Components/News/News/42417/6271?backlist=%2f" target="_self">
+        Electric vehicle rebates now available for qualified Silicon Valley Power Customers!
+    </a>
+<p class="item_smalltext">
+2/1/2021 9:00:00 AM        </p>
+</li>
+</ul>
+<a class="box_bottomlink" href="/svp-and-community/news-and-announcements/svp-news-list">More News</a>
+</div>
+</section>
+</li></ul>
+</div></div></li></ul>
+<script>
+    $(function () {
+        /**load the Advance Mega Menu which is set to async load**/
+        $(".async_widget_container.custominvoke").loadAsyncContainer();
+    });
+</script>
+<script>
+$(function () {
+ var menuContainer = $('#menuContainer_1_0_3651')
+ $(".dropdownmenu a[data-navid='1922']", menuContainer).closest('.dropdownmenu>li').addClass('active');
+});
+</script></nav>
+<script>
+    /**********************************************************
+    Dropdown Menu delay disappearance on mouse out
+    *********************************************************/
+    /*javascript to delay the disappearance of the menu when the user mouses out.  Uses jquery library.*/
+    var resetSubmenus = function(){
+        //console.log('reset submenus firing');
+        $('.active_submenu').removeClass('active_submenu');
+        $(".megamenu_column").each(function(index){
+            if ($(this).hasClass('megamenu_column_content')){
+                return; // only apply this function to the first column of the megamenu
+            }
+            $(this).find('.megamenu_level1').first().addClass('active_submenu');
+            // the above line will set the top submenu to be active by default when hovering over a top-level nav.
+            // i programed it this way because it followed the example given by client, but they preferred to have no submenu active by default
+        });
+    }
+    $(function () {
+        
+
+        var timer = null;
+        var delay = 800; //change this number for shorter or longer delay
+
+        
+        //using megamenu
+        var dropdowncontainer = '>.megamenu_container';
+        var activePage = $(".mainnav .dropdownmenu > li.active");
+
+        resetSubmenus();
+
+        $(".mainnav > .dropdownmenu > li").hoverIntent(
+
+            //what happens on hover over
+            function () {
+                 //end timer and stop hiding if they are mousing back in.
+                var $menu = $(this);
+                var $submenu = $(this).find(dropdowncontainer);
+
+                // Top submenu is expanded by default
+                //$menu.find('.megamenu_level1 > a').first().addClass('active_submenu');
+
+                 if (timer != null) {
+                     clearTimeout(timer);
+                     timer = null;
+                 }
+                 // Find the hovered menu's sub-menu
+
+                 // hide any other submenus that are open
+                 $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                 $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+
+                 // show current menu
+                 $submenu.css('display', 'block');
+                 $menu.addClass('active');
+             },
+
+            //what happens on mouse out
+            function () {
+                var $submenu = $(this).find(dropdowncontainer);
+                var $menu = $(this);
+                // delay disappearance
+                var mouseDelay = $(this).data("mouseDelay") || delay;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    $submenu.css('display', 'none'); $menu.not(activePage).removeClass('active');
+
+                    // Reset the actuve submenu to the top one
+                    resetSubmenus();
+
+                    clearTimeout(timer); timer = null;
+                }, mouseDelay);
+            }
+        );
+
+        
+        $('li.megamenu_level1').hover(
+            function(){
+                if ($(this).parent().hasClass('megamenu_column_content')){
+                    return; // only apply this function to the first column of the megamenu
+                }
+                //console.log($(this).parent().attr('class'));
+                $('.active_submenu').removeClass('active_submenu');
+                $(this).addClass('active_submenu');
+            },
+            function(){
+                //console.log('mousing out');
+            }
+        )
+
+
+
+        
+    });
+</script>
+<script>
+    //$(function () 
+    {
+        var menuContainerID = "menuContainer_1_0_3651";
+        var menuContainer = $("#" + menuContainerID);
+        
+        function isIE(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1;
+        }
+
+        function isIE9(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE 9") > -1;
+        }
+
+        function isTouchScreenEvent(event) {
+            var _isTouchScreen = false;
+            if ("ontouchstart" in window) {
+                _isTouchScreen = true;
+            } else if ("onpointerdown" in window) {
+                _isTouchScreen = event.originalEvent.pointerType == "touch";
+            } else if (window.MSPointerEvent) {
+                _isTouchScreen = event.originalEvent.pointerType == event.originalEvent.MSPOINTER_TYPE_TOUCH; // 2 ; http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx
+            } else {
+            }
+            return _isTouchScreen;
+        }
+
+        var _isIE = isIE();
+        var _isIE9 = isIE9();
+        var isMegaMenu = $('.megamenu_first', menuContainer).length > 0;
+        var currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+
+        $(function () {
+            if (currentMenu.length == 0)
+                currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+        });
+
+        if (("ontouchstart" in window   // Chrome & Safari (IOS) && Firefox
+         || "onpointerdown" in window   // IE 11 
+         || window.MSPointerEvent       // IE 10
+         ) && ($(window).width() > 648)) {
+            var eventName = "ontouchstart" in window ? "touchstart"
+                          : "onpointerdown" in window ? "pointerdown"
+                          : window.MSPointerEvent ? "MSPointerDown"
+                          : "";
+            if (eventName.length > 0) {                
+                $('> ul.dropdownmenu  li>a[data-navid]', menuContainer).bind(eventName, function (event) {
+                    
+                    if (isTouchScreenEvent(event) == false) {
+                        return true;
+                    }
+    
+                    var currentLevelAnchor = $(this);
+                    var currentLeveLi = currentLevelAnchor.closest("li");
+                    var firstLevelLi = currentLevelAnchor.closest("li[id^='dropdownrootitem']");
+                    var firstLevelAnchor = firstLevelLi.find(">a[data-navid]");
+                    var inFirstLevel = currentLevelAnchor[0] == firstLevelAnchor[0];
+
+                    var hasSubMenu = currentLevelAnchor.next("ul,div").length > 0;
+                    if (hasSubMenu) {
+                        $(this).closest("li").data("mouseDelay", 1);
+
+                        // Menu is not selected
+                        if (!firstLevelLi.hasClass('touch-active')) {                
+                            if ($(this).attr("href")) {
+                                $(this).attr("data-href", $(this).attr("href"));
+                                $(this).attr("href", "javascript:void(0);");
+                            }
+                            $(menuContainer).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');                           
+                            
+                            firstLevelLi.addClass('touch-active active');
+                            currentLevelAnchor.addClass('touch-active active');
+                            currentMenu.addClass("active");
+
+                            $(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                            $(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                            $('> ul.dropdownmenu > li:not(.touch-active) > a[data-navid]', menuContainer).next().css('display', 'none');
+                            $('> ul.dropdownmenu > li.touch-active > a[data-navid]', menuContainer).next().css('display', 'block');
+
+                            event.preventDefault();
+                        }
+                            // Menu is selected
+                        else {
+                            if (inFirstLevel) {
+                                // non clickable
+                                if (currentLevelAnchor.attr('href') == undefined) {
+                                    //has class touch-active and no link
+                                    removeClassAndHideMenu();
+                                    event.preventDefault();
+                                } else if ($(this).attr("data-href")) { //clickable, but href have been moved to data.
+                                    $(this).attr("href", $(this).attr("data-href"));
+                                }
+                            }
+                            else {
+                                if (isMegaMenu)
+                                    return true;
+
+                                if (!currentLeveLi.hasClass('touch-active')) {
+                                    if ($(this).attr("href")) {
+                                        $(this).attr("data-href", $(this).attr("href"));
+                                        $(this).attr("href", "javascript:void(0);");
+                                    }
+                                    $(firstLevelLi).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+                                    currentLeveLi.parent().children("li._current").removeClass("_current");
+                                    currentLeveLi.addClass('touch-active active _current');
+
+                                    currentLevelAnchor.addClass('touch-active active');
+
+                                    //$(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                                    //$(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                                    $(' li:not(.touch-active) > a[data-navid]', currentLeveLi.parent()).next().css('display', 'none');
+                                    $('> li.touch-active > a[data-navid]', currentLeveLi.parent()).next().css('display', 'block');
+
+                                    event.preventDefault();
+                                } else {
+                                    if (currentLevelAnchor.attr('href') == undefined) {
+                                        //has class touch-active and no link
+                                        removeClassAndHideMenu();
+                                        event.preventDefault();
+                                    } else if ($(this).attr("data-href")) {
+                                        $(this).attr("href", $(this).attr("data-href"));
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                });
+            }
+        }
+
+        
+
+        function removeClassAndHideMenu() {
+            $(menuContainer).find('a.touch-active, li.touch-active').removeClass('touch-active active');
+            $('> ul.dropdownmenu > li > a[data-navid]', menuContainer).next().css('display', 'none');
+            // If we don't change the menu item, we should keep the old one.
+            if ($('> ul.dropdownmenu > li.active', menuContainer).length == 0) {
+                currentMenu.addClass("active");
+            }
+        }
+
+        $('body').bind(eventName, function (event) {
+            if (isTouchScreenEvent(event) == false) {
+                return true;
+            }
+            if (!$(event.target).closest('li.touch-active').length) {
+                removeClassAndHideMenu();
+            }
+        });
+    }
+    //);
+</script>
+<script>
+    $(document).ready(function () {
+        $('ul.megamenu_level1').parent().addClass('expand'); // this tells the css to only add the expander arrow when the level1 page has associated level2 pages
+    })
+</script>
+<!--startindex-->
+<!--!!WidgetEnd-->
+</div>
+<div class="column left_col" id="ColumnUserControl2">
+<!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="2"WidgetStart!!-->
+<!--stopindex-->
+<nav class="nocontent sidenav mobile_list vi-sidenav-desktop" id="leftNav_2_0_3651">
+<h2 class="mobile_only mobile_header">Jump to subpage...</h2>
+<ul><li><a href="https://www.siliconvalleypower.com/residents/my-utilities-account" target="_blank">My Utilities Account</a></li><li class="sidenav_haschildren"><a href="https://www.siliconvalleypower.com/residents/payment-assistance" target="_self">Payment Assistance</a><a class="vi-sidenav-toggle" href="javascript:void(0)" title="Expand/Collapse subpages under Sidenav Item with Children">+</a><ul><li><a href="https://www.siliconvalleypower.com/residents/payment-assistance/covid-19" target="_self">COVID-19 Electric Relief Program</a></li><li><a href="https://www.siliconvalleypower.com/residents/payment-assistance/f-r-a-p-program" target="_self">Apply for Financial Rate Assistance Program online</a></li></ul></li><li><a href="https://www.siliconvalleypower.com/residents/rates-and-fees" target="_self">Rates and Fees</a></li><li><a href="https://www.siliconvalleypower.com/residents/rebates-6214" target="_self">Rebates</a></li><li class="sidenav_expanded sidenav_haschildren"><a href="https://www.siliconvalleypower.com/residents/save-energy" target="_self">Save Energy</a><a class="vi-sidenav-toggle" href="javascript:void(0)" title="Expand/Collapse subpages under Sidenav Item with Children">-</a><ul><li><a href="https://www.siliconvalleypower.com/residents/save-energy/home-energy-audit" target="_self">Home Energy Audit</a></li><li class="sidenav_current"><a href="https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart" target="_self">Appliance Energy Use Chart</a></li><li><a href="https://www.siliconvalleypower.com/residents/save-energy/energy-saving-tips-6216" target="_self">Energy Saving Tips</a></li><li><a href="https://www.siliconvalleypower.com/residents/save-energy/tool-lending-library" target="_self">Tool Lending Library</a></li></ul></li></ul>
+</nav>
+<script>
+    $(function () {
+        //test if it is mobile view or not and add classes accordingly. Needed because different sites use different breakpoints for mobile
+        if ($('.sidenav .mobile_only').is(':visible')) {
+            $('.sidenav').addClass('vi-sidenav-mobile');
+        } else {
+            $('.sidenav').addClass('vi-sidenav-desktop');
+        }
+        //need to also check for mobile view on resize and change classes if needed
+        var sidenavResizeTimer;
+
+        $(window).on('resize', function (e) {
+
+            clearTimeout(sidenavResizeTimer);
+            sidenavResizeTimer = setTimeout(function () {
+
+                if ($('.sidenav .mobile_only').is(':visible')) {
+                    $('.vi-sidenav-desktop').addClass('vi-sidenav-mobile').removeClass('vi-sidenav-desktop');
+                } else {
+                    $('.vi-sidenav-mobile').addClass('vi-sidenav-desktop').removeClass('vi-sidenav-mobile');
+                }
+            }, 250);
+
+        });
+
+        //expand/collapse function
+        $("#leftNav_2_0_3651 .vi-sidenav-toggle").click(function () {
+            var item = $(this),
+                parent = item.parent("li");
+
+            if (parent.length) {
+                if (parent.hasClass("sidenav_expanded")) {
+                    parent.removeClass("sidenav_expanded");
+                } else {
+                    parent.addClass("sidenav_expanded");
+                }
+            }
+
+            if (item.html() === "+") {
+                item.html('-');
+            } else {
+                item.html('+');
+            }
+        });
+    });
+</script>
+<!--startindex-->
+<!--!!WidgetEnd-->
+<!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="218"WidgetStart!!-->
+<!--!!WidgetEnd-->
+</div>
+<div class="column right_col" id="ColumnUserControl3">
+<!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="3"WidgetStart!!-->
+<a id="pagebody"></a>
+<header class="title_widget clearfix" id="widget_3_0_3651">
+<!--stopindex-->
+<p class="breadcrumb">
+<a href="/residents">Residents</a> » <a href="/residents/save-energy">Save Energy</a>
+</p>
+<!--startindex-->
+<h1 class="titlewidget-title"><span>Appliance Energy Use Chart</span></h1>
+<!--stopindex-->
+<div class="title_right">
+<a class="printer_friendly" href="javascript:window.print();" title="Click to print this page">Print</a>
+<a class="thickbox feedback_link" href="javascript:void(0);" title="Click to submit an email to feedback">Feedback</a>
+<script type="text/javascript">
+            function shareLink(shareType) {
+                var shareUrl = "";
+                var shareTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Appliance+Energy+Use+Chart";
+                switch (shareType) {
+                    case "facebook":
+                        shareUrl = "http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&t=" + shareTitle;
+                        break;
+                    case "linkedin":
+                        shareUrl = "http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&title=" + shareTitle;
+                        break;
+                    case "twitter":
+                        //Below link works in iOS and other OS
+                        shareUrl = "https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&text=Appliance+Energy+Use+Chart+%7c+";
+                        break;
+                    case "delicious":
+                        shareUrl = "https://secure.delicious.com/login?noui=yes&v=4&jump=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart%26title%3D" + shareTitle + "%26notes%3D%26tags%3D%26v%3D4%26noui%3D%26share%3Dyes%26jump%3Dclose%26time%3D1239993443";
+                        break;
+                    case "myspace":
+                        shareUrl = "http://www.myspace.com/Modules/PostTo/Pages/?u=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&t=" + shareTitle + "&c=";
+                        break;
+                    case "googlebookmark":
+                        shareUrl = "http://www.google.com/bookmarks/mark?op=add&bkmk=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&title=" + shareTitle;
+                        break;
+                    case "stumbleupon":
+                        shareUrl = "http://www.stumbleupon.com/submit?url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&title=" + shareTitle;
+                        break;
+                    case "digg":
+                        shareUrl = "http://digg.com/submit/?url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart";
+                        break;
+                    case "tumblr":
+                        shareUrl = "https://www.tumblr.com/share/link?url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&name=" + shareTitle;
+                        break;
+                    case "reddit":
+                        shareUrl = "http://www.reddit.com/submit?url=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart&title=" + shareTitle;
+                        break;
+                }
+                if (shareUrl.length > 0) window.open(shareUrl, "_blank");
+            }
+        </script>
+<div id="share">
+<a aria-expanded="false" aria-haspopup="true" aria-labelledby="share-desciption" class="sharelink" href="javascript:void(0);" title="Click to expand Share &amp; Bookmark options">Share &amp; Bookmark</a>
+<span class="wcag_only" id="share-desciption">Press Enter to show all options, press Tab go to next option</span>
+<ul class="no_external_url_indication">
+<li>
+<a class="shareemail send_share_email" href="javascript:void(0);" title="Click to submit an email online">Email</a>
+</li>
+<li><a class="sharefacebook" href="javascript:shareLink('facebook')" title="Click to share with Facebook">Facebook</a></li>
+<li><a class="sharelinkedin" href="javascript:shareLink('linkedin')" title="Click to share with LinkedIn">LinkedIn</a></li>
+<li><a class="sharetwitter" href="javascript:shareLink('twitter')" title="Click to share with Twitter">Twitter</a></li>
+<li><a class="sharereddit" href="javascript:shareLink('reddit')" title="Click to share with Reddit">Reddit</a></li>
+</ul>
+</div>
+<div class="font_size">
+<a class="text_size" href="javascript:void(0);" title="default font size">Font Size:</a>
+<a class="font_larger" href="javascript:void(0);" title="larger font size">+</a>
+<a class="font_smaller" href="javascript:void(0);" title="smaller font size">-</a>
+</div>
+</div>
+<!--startindex-->
+</header>
+<script type="text/javascript">
+    $(function () {
+        var widgetContext = "widget_3_0_3651";
+
+        $("#" + widgetContext + " #share").click(function () {
+            if (!$("#" + widgetContext + " div#share").hasClass("click-active"))
+                $("#" + widgetContext + " div#share").find("ul").show();
+            else
+                $("#" + widgetContext + " div#share").find("ul").hide();
+        });
+
+        $("div").click(function () {
+            if ($("#" + widgetContext + " div#share").hasClass("click-active")) {
+                $("#" + widgetContext + " div#share").find("ul").hide();
+            }
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest("#share").length > 0) {
+                $("#" + widgetContext + " div#share").removeClass("click-active");
+                $("#" + widgetContext + " div#share").find("ul").hide();
+            }
+        });
+
+        var shareContainerTimeout = null;
+        $("#" + widgetContext + " #share").bind('mouseover', function () {
+            //If not relate to click event
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$("#" + widgetContext + " div#share").hasClass("click-active"))
+                    $("#" + widgetContext + " div#share").find("ul").show();
+            }, 100);
+        });
+
+        $("#" + widgetContext + " #share").bind('mouseleave', function () {            
+            //If not relate to click event     
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$("#" + widgetContext + " div#share").hasClass("click-active"))
+                    $("#" + widgetContext + " div#share").find("ul").hide();
+            }, 200);
+        });
+
+        $("header#" + widgetContext + " a.feedback_link").click(function () {
+            var windowHeight = 485;
+            if (window.innerWidth <= 648) {
+                windowHeight = 545;
+            }
+            var opts = {
+                title: "Feedback",
+                url: "/Template/GetFeedbackPartial?feedbackUrl=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart",
+                useFrame: true,
+                height: windowHeight,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                },
+                skin: 'viClientDialog feedback_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        //Safari iOS: No click event
+        $("header#" + widgetContext + " a.send_share_email").bind("click touchstart", function () {
+            var shareEmailTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Appliance+Energy+Use+Chart";
+            var opts = {
+                title: "Click to submit an email online",
+                url: "/Template/GetShareEmailPartial?shareUrl=https%3a%2f%2fwww.siliconvalleypower.com%2fresidents%2fsave-energy%2fappliance-energy-use-chart" + "&shareTitle=" + shareEmailTitle,
+                useFrame: true,
+                height: 485,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                },
+                skin: 'viClientDialog send_share_email_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        
+
+    });
+</script>
+<!--!!WidgetEnd-->
+<!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="4"WidgetStart!!-->
+<div class="content_area normal_content_area clearfix" id="widget_4_2550_3651"><p>It takes just a little energy to save on energy costs. If you pay attention to the little things, the money you save will add up in a big way. The chart below gives you a good idea of energy costs per electrical appliance, kind of like nutrition fact labels on food.     </p>
+<div id="apchart">
+<table cellpadding="0" cellspacing="0" class="tableData" style="width: 100%; max-width: none;" width="100%">
+<tbody>
+<tr>
+<th>Category</th>
+<th>Detail</th>
+<th>Estimated Energy Usage*</th>
+<th>Estimated Energy Costs**</th>
+</tr>
+<tr>
+<td class="three" colspan="4">
+<h3>Heating</h3>
+</td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;"><strong>Space heating, electric</strong></td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Portable heater (1500W)</td>
+<td class="two">1.5 kWh per hour</td>
+<td class="two">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Baseboard heater (six foot unit) (250 W/foot)</td>
+<td class="one">1.5 kWh per hour</td>
+<td class="one">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Heat pump heat strips</td>
+<td class="two">10 kWh per hour w/fan</td>
+<td class="two">$1.30 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Electric furnace</td>
+<td class="one">10.5 kWh per hour w/fan</td>
+<td class="one">$1.37 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two" colspan="4"><strong style="background-color: transparent;">Heat pump w/o heat strips</strong><span style="background-color: transparent;"> </span><strong>(1.8 COP)***</strong></td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">1.5 ton</td>
+<td class="one">2.93 kWh per hour</td>
+<td class="one">$0.38 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">5.0 ton</td>
+<td class="two">9.77 kWh per hour</td>
+<td class="two">$1.27 per hour</td>
+</tr>
+<tr style="font-weight: bold;">
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Air Conditioning/ Cooling</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"><br/>
+</td>
+<td class="three">Window/wall (8kBtu) (120V–12 EER)</td>
+<td class="three">0.73 kWh per hour</td>
+<td class="three">$0.09 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Window/wall (18kBtu) (240V)</td>
+<td class="two">1.8 kWh per hour</td>
+<td class="two">$0.23 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Central (3 ton–12 SEER)</td>
+<td class="one">3.0 kWh per hour</td>
+<td class="one">$0.39 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Whole house fan </td>
+<td class="two">0.2–0.4 kWh per hour</td>
+<td class="two">$0.03–$0.05 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Pedestal fan </td>
+<td class="one">0.03 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Ceiling fan</td>
+<td class="two">0.025–0.075 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4">
+<h3>Water Heating
+            (All uses)</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"></td>
+<td class="three">Electric water heater</td>
+<td class="three">380–500 kWh per month</td>
+<td class="three">$49.40–$65.00 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Instantaneous (110 v 29 amp) @1gpm 70°F</td>
+<td class="two">380–500 kWh per month</td>
+<td class="two">$49.40–$65.00 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Instantaneous (240 v 50 amp) @2.5gpm 83°F</td>
+<td class="one">12 kWh per month</td>
+<td class="one">$1.56 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">
+<p>Heat pump (50–75 gal) water heater</p>
+</td>
+<td class="one">77 kWh per month</td>
+<td class="one">$10.01 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Heat pump (&gt;75 gal) water heater</td>
+<td class="one">111.8 kWh per month</td>
+<td class="one">$14.53 per month</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Kitchen</h3>
+</td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;"><strong>Range, electric</strong></td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Oven</td>
+<td class="one">2.3 kWh per hour</td>
+<td class="one">$0.30 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Oven: surface</td>
+<td class="two">1–1.5 kWh per hour</td>
+<td class="two">$0.13–$0.20 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Oven: self-cleaning feature</td>
+<td class="one">6 kWh per hour cleaning</td>
+<td class="one">$0.78 per cleaning</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Microwave oven</td>
+<td class="two">0.12 kWh per 5 min</td>
+<td class="two">$0.02 per 5 min</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Broiler, portable electric</td>
+<td class="one">1.5 kWh per hour</td>
+<td class="one">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Single serve coffee maker</td>
+<td class="two">0.26 kWh per brew</td>
+<td class="two">$0.03 per brew</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Coffee maker</td>
+<td class="two">0.12 kWh per brew</td>
+<td class="two">$0.02 per brew</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Coffee maker/brew, warmer on</td>
+<td class="one">0.4 kWh per hour</td>
+<td class="one">$0.05 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Dishwasher: normal cycle (not including hot water)</td>
+<td class="two">1–2.17 kWh per load</td>
+<td class="two">$0.13–$0.28 per load</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Dishwasher: Energy-saver cycle</td>
+<td class="one">0.5 kWh per load</td>
+<td class="one">$0.07 per load</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Toaster (2 slices)</td>
+<td class="two">0.04 kWh per use</td>
+<td class="two">Less than $0.01 per use</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Toaster oven</td>
+<td class="one">0.75 kWh–per hour</td>
+<td class="one">$0.10 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Waffle iron, 4 servings</td>
+<td class="two">0.33 kWh per use</td>
+<td class="two">$0.04 per use</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Refrigerator/Freezer</h3>
+</td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;"><strong>Older units</strong></td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Refrigerator (frost-free), 15 cu. ft. (1996 unit)</td>
+<td class="two">150 kWh per month</td>
+<td class="two">$19.50 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Freezer (manual defrost), 15 cu. ft.</td>
+<td class="one">90 kWh per month</td>
+<td class="one">$11.70 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two" colspan="4"><b>Newer Units - ENERGY STAR Refrigerators</b></td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">ENERGY STAR Refrigerator, 14 cu. ft.</td>
+<td class="one">34.5 kWh per month</td>
+<td class="one">$ 4.49 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">ENERGY STAR Refrigerator (frost-free), 17 cu. ft.<br/>
+</td>
+<td class="two">35 kWh per month</td>
+<td class="two">$ 4.55 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">ENERGY STAR Refrigerator (frost-free), 19 cu. ft.</td>
+<td class="one">46 kWh per month</td>
+<td class="one">$ 5.98 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">ENERGY STAR Refrigerator (side by side) 21 cu. ft.</td>
+<td class="two">51 kWh per month</td>
+<td class="two">$ 6.63 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">ENERGY STAR Refrigerator (frost-free) 24 cu. ft.</td>
+<td class="one">54 kWh per month</td>
+<td class="one">$ 7.02 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">ENERGY STAR Refrigerator (side by side) 25 cu. ft.</td>
+<td class="two">60 kWh per month</td>
+<td class="two">$ 7.80 per month</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Electronics</h3>
+</td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;"><strong>Television</strong><br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><strong>LED/4k UHD</strong></td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">40"–50"</td>
+<td class="two">0.071 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">50"–60"</td>
+<td class="two">0.12 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">60"–75"</td>
+<td class="two">0.15 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">&gt;75"</td>
+<td class="two">0.18 kWh per hour</td>
+<td class="two">$0.02 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><strong>OLED/4k</strong></td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">20"–30"</td>
+<td class="two">0.023 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">30"–40"</td>
+<td class="two">0.045 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">&gt;40"</td>
+<td class="two">0.14 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><b>LED/HDTV/720P</b></td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">20"–30"</td>
+<td class="two">0.024 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">&gt;30"</td>
+<td class="two">0.035 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><strong>LED/HDTV/1080P</strong><br/>
+</td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">20"–30"</td>
+<td class="two">0.014 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">30"–40"</td>
+<td class="two">0.019 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">&gt;40"</td>
+<td class="two">0.025 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><strong>Plasma</strong></td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">40"–49"</td>
+<td class="two">0.4 kWh per hour</td>
+<td class="two">$0.05 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">&gt;50"</td>
+<td class="one">0.48 kWh per hour</td>
+<td class="one">$0.06 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"><strong>LCD</strong></td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">40"–49"</td>
+<td class="two">0.012 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">&gt;50"</td>
+<td class="one">0.016 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+<td class="two"> </td>
+</tr>
+<tr>
+<td class="two" colspan="4"><strong>Recording/Video Playing Devices</strong></td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Cable box</td>
+<td class="one">139 kWh per year</td>
+<td class="one">$18.07 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Roku</td>
+<td class="one">26.2 kWh per year</td>
+<td class="one">$3.41 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Thin client</td>
+<td class="one">52.6 kWh per year</td>
+<td class="one">$6.84 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+</tr>
+<tr>
+<td class="one" colspan="4"><strong>Gaming</strong><br/>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Nintendo Switch</td>
+<td class="one">157.7 kWh per year</td>
+<td class="one">$20.50 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Xbox One</td>
+<td class="one">233 kWh per year</td>
+<td class="one">$30.29 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">PlayStation 4</td>
+<td class="one">181 kWh per year</td>
+<td class="one">$23.53 per year</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Wii U</td>
+<td class="one">37 kWh per year</td>
+<td class="one">
+<p>$4.81 per year</p>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+</tr>
+<tr>
+<td class="one" colspan="4"><strong>Computers</strong><br/>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Desktop computer</td>
+<td class="one">0.06–kWh per hour</td>
+<td class="one">
+<p>$0.01–$0.03 per hour</p>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Desktop computer on sleep/standby mode</td>
+<td class="one">0.001–0.006 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Laptop</td>
+<td class="one">0.02–0.05 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Monitor - 17" CRT</td>
+<td class="one">0.08 kWh per hour</td>
+<td class="one">$0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Monitor - 17" LCD</td>
+<td class="one">0.04 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+<td class="one"> </td>
+</tr>
+<tr>
+<td class="one" colspan="4"><strong>Other</strong><br/>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Speakers (25 Watts x 2) normal volume</td>
+<td class="one">0.05 kWh per hour</td>
+<td class="one">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Stereo</td>
+<td class="one">0.05 kWh per hour</td>
+<td class="one">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Radio, CD player</td>
+<td class="one">0.02 kWh per hour</td>
+<td class="one">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Tablet</td>
+<td class="one">12 kWh per year</td>
+<td class="one">$1.56 per year</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Lighting</h3>
+</td>
+</tr>
+<tr>
+<td class="three" colspan="4"><strong>Compact fluorescent (CFL)/LED</strong><br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (8 W) equivalent to 25 W incandescent</td>
+<td class="two">0.008 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (11 W) equivalent to 40 W incandescent</td>
+<td class="two">0.01 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (15 W) equivalent to 60 W incandescent<br/>
+</td>
+<td class="two">0.015 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (20 W) equivalent to 75 W incandescent<br/>
+</td>
+<td class="two">0.02 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (27 W) equivalent to 100 W incandescent<br/>
+</td>
+<td class="two">0.027 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">CFL/LED (38 W) equivalent to 150 W incandescent<br/>
+</td>
+<td class="two">0.038 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Heat Lamp</td>
+<td class="two">0.04 kWh per hour</td>
+<td class="two">Less than $0.01 per hour<br/>
+</td>
+</tr>
+<tr>
+<td class="two" colspan="4"> </td>
+</tr>
+<tr>
+<td class="two" colspan="4">
+<p><strong>Halogen</strong></p>
+</td>
+</tr>
+<tr>
+<td class="two"><strong> </strong></td>
+<td class="two"> Halogen (300 W)</td>
+<td class="two">0.3 kWh per hour</td>
+<td class="two">$0.04 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Laundry</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"><br/>
+</td>
+<td class="three">Clothes dryer (light load vs. heavy load)</td>
+<td class="three">2.5–4 kWh per load</td>
+<td class="three">$0.33–$0.52 per load</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Non ENERGY STAR-Qualified </td>
+<td class="two">2.28 kWh per load</td>
+<td class="two">$0.30 per load</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">ENERGY STAR-Qualified </td>
+<td class="one">1.90 kWh per load</td>
+<td class="one">$0.25 per load</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Heat pump dryer</td>
+<td class="one">0.54 kWh per load</td>
+<td class="one">$0.07 per load</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Warm wash, cold rinse</td>
+<td class="one">2.3 kWh per load</td>
+<td class="one">$0.30 per load</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Hot wash, warm rinse</td>
+<td class="two">6.3 kWh per load</td>
+<td class="two">$0.82 per load</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Household Goods</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"><br/>
+</td>
+<td class="three">Vacuum cleaner</td>
+<td class="three">0.75 kWh per hour</td>
+<td class="three">$0.10 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Dyson vacuum cleaner</td>
+<td class="two">0.23 kWh per hour</td>
+<td class="two"> $0.03 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Iron</td>
+<td class="two">1.08 kWh per hour</td>
+<td class="two">$0.14 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Clock</td>
+<td class="one">2–4 kWh per month</td>
+<td class="one">$0.26–$0.52 per month</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Night light (4w on 12-hours/day)</td>
+<td class="two">1.44 kWh per month</td>
+<td class="two">$0.19 per month</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Electric blanket: Twin</td>
+<td class="one">0.5 kWh/night</td>
+<td class="one">$0.07/night</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Electric blanket: Double/Queen</td>
+<td class="two">0.75 kWh/night</td>
+<td class="two">$0.10/night</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Electric blanket: King</td>
+<td class="one">1 kWh/night</td>
+<td class="one">$0.13/night</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Aquarium</td>
+<td class="two">0.05–1.21kWh per hour</td>
+<td class="two">$0.01–$0.16 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Robot vacuum cleaner</td>
+<td class="two">0.007 kWh per hour</td>
+<td class="two">Less than $0.01 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Bathroom</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"> </td>
+<td class="three">Hair dryer</td>
+<td class="three">1.5 kWh per hour</td>
+<td class="three">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Curling iron</td>
+<td class="two">0.15 kWh per hour</td>
+<td class="two">$0.02 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Whirlpool tub</td>
+<td class="one">1.8 kWh per hour</td>
+<td class="one">$0.23 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Swimming Pool</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"><br/>
+</td>
+<td class="three">Sweep pump (3/4 hp)</td>
+<td class="three">0.56 kWh per hour</td>
+<td class="three">$0.07 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Filter pump (1/2–1 hp)</td>
+<td class="one">1.12 kWh per hour</td>
+<td class="one">$0.15 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Filter pump (2 hp)</td>
+<td class="one">1.5 kWh per hour</td>
+<td class="one">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Single-speed pump</td>
+<td class="one">0.54 kWh per hour</td>
+<td class="one">$0.07 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Dual-speed pump</td>
+<td class="one">0.29 kWh per hour</td>
+<td class="one">$0.04 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Variable-speed pump</td>
+<td class="one">0.12 kWh per hour</td>
+<td class="one">$0.02 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4">
+<h3><strong>Spa/Hot Tub</strong></h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"> </td>
+<td class="three">Electric heater (1500 W)</td>
+<td class="three">1.5 kWh per hour</td>
+<td class="three">$0.20 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="three" colspan="4" style="font-weight: bold;">
+<h3>Medical Equipment</h3>
+</td>
+</tr>
+<tr>
+<td class="three" style="font-weight: bold;"><br/>
+</td>
+<td class="three">Nebulizer</td>
+<td class="three">1 kWh per hour</td>
+<td class="three">$0.13 per hour</td>
+</tr>
+<tr>
+<td class="two"> </td>
+<td class="two">Oxygen concentrator</td>
+<td class="two">0.46 kWh per hour</td>
+<td class="two">$0.06 per hour</td>
+</tr>
+<tr>
+<td class="one"> </td>
+<td class="one">Sleep apnea machine (CPAP)</td>
+<td class="one">0.2 kWh per hour</td>
+<td class="one">$0.03 per hour</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4"> </td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">* Estimated energy use is based on average operation conditions. Individual use may vary.</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">** Estimated costs based on $0.13 per kWh</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">*** COP = Coefficient of Performance. An electric resistance heater has a COP of 1</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">GPM - Gallons per minute</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">SEER - Seasonal Energy Efficiency Ratio (efficiency given to central air conditioning)</td>
+</tr>
+<tr>
+<td class="tablenote" colspan="4">EER - Energy Efficiency Ratio (efficiency given to window/wall air conditioners) </td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<!--!!WidgetEnd-->
+</div>
+</div>
+<footer class="" id="page_footer">
+<!--stopindex-->
+<div class="site_template_column footer_column" id="footercolumn">
+<div class="footer_address">
+<h2>Find Us</h2>
+<p><a href="https://www.google.com/maps/place/1500+Warburton+Ave,+Santa+Clara,+CA+95050">City of Santa Clara City Hall<br/>
+1500 Warburton Avenue<br/>
+Santa Clara, CA 95050</a></p>
+<p>
+<a href="/?navid=1">Visit the City Site</a></p>
+</div>
+<div class="footer_nav">
+<div id="footer_nav_links_1">
+<h1>Contact Us </h1>
+<ul>
+<li><a href="/svp-and-community/contact-us" target="_self">408-615-2300</a></li>
+<li><a href="/svp-and-community/contact-us" target="_self">SVP Directory</a></li>
+</ul>
+</div>
+</div>
+<!--stopindex-->
+<div id="footer_nav_links_2" style="min-height: 124px;">
+<h1>Resources </h1>
+<ul>
+<li><a href="/svp-and-community/job-opportunities" target="_self">Job Opportunities</a></li>
+<li><a href="/svp-and-community/about-svp/privacy-policy" target="_self">Privacy Policy</a></li>
+<li><a href="/svp-and-community/about-svp/disclaimer" target="_self">Disclaimer</a></li>
+<li><a href="/svp-and-community/about-svp/sitemap" target="_self">Site Map</a></li>
+</ul>
+</div>
+<!--startindex-->
+<div class="social_icons_container">
+<div class="social_icons">
+<h2>Keep in Touch</h2>
+<ul>
+<li data-hover-src="/Home/ShowPublishedImage/61396/636989502469170000" data-src="/Home/ShowPublishedImage/61394/636989502465270000">
+<a href="https://twitter.com/santaclarapower" target="_blank" title="Twitter">
+<img alt="Twitter@2x" src="/Home/ShowPublishedImage/61394/636989502465270000"/>
+</a>
+</li>
+<li data-hover-src="/Home/ShowPublishedImage/61376/636989502432600000" data-src="/Home/ShowPublishedImage/61374/636989502429000000">
+<a href="https://www.facebook.com/SiliconValleyPower/" target="_blank" title="Facebook">
+<img alt="Facebook@2x" src="/Home/ShowPublishedImage/61374/636989502429000000"/>
+</a>
+</li>
+<li data-hover-src="/Home/ShowPublishedImage/62444/637057250561200000" data-src="/Home/ShowPublishedImage/62442/637057250845270000">
+<a href="https://www.linkedin.com/company/silicon-valley-power/" target="_blank" title="LinkedIn">
+<img alt="Footer-li-icon@2x" src="/Home/ShowPublishedImage/62442/637057250845270000"/>
+</a>
+</li>
+<li data-hover-src="/Home/ShowPublishedImage/61384/637360225570670000" data-src="/Home/ShowPublishedImage/61382/637360224576670000">
+<a href="https://nextdoor.com/" target="_blank" title="Nextdoor">
+<img alt="nextdoor@2x" src="/Home/ShowPublishedImage/61382/637360224576670000"/>
+</a>
+</li>
+<li data-hover-src="/Home/ShowPublishedImage/62452/637038328906270000" data-src="/Home/ShowPublishedImage/62450/637038328901730000">
+<a href="https://siliconvalleypower.wordpress.com/" target="_blank" title="WordPress">
+<img alt="Footer-wp-icon@2x" src="/Home/ShowPublishedImage/62450/637038328901730000"/>
+</a>
+</li>
+<li data-hover-src="/Home/ShowPublishedImage/62448/637038328897500000" data-src="/Home/ShowPublishedImage/62446/637038328892970000">
+<a href="https://vimeo.com/user12793072" target="_blank" title="Vimeo">
+<img alt="Footer-vimeo-icon@2x" src="/Home/ShowPublishedImage/62446/637038328892970000"/>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<p class="footer_copyright">Website Created by <a href="https://granicus.com/government-website-design?utm_source=customer&amp;utm_medium=footer&amp;utm_campaign=govAccesswebsite">Granicus</a> - Connecting People and Government</p>
+</div>
+<!--startindex-->
+</footer>
+<div id="view-options"><a class="mobile_only" href="javascript:void(0);" id="view-full" onclick="viewfullsite()">View Full Site</a></div>
+</div>
+</div>
+<script src="/Project/Contents/Main/Scripts/SVP/mobile_nav_scripts.js" type="text/javascript"></script>
+<script src="/Project/Contents/Main/Scripts/SVP/svp_sitelayout_scripts.js" type="text/javascript"></script>
+<script>
+        $(function () {
+            $(".reComment[comment]").removeClass("reComment")
+                                    .removeAttr("comment")
+                                    .removeAttr("author")
+                                    .removeAttr("title")
+                                    .removeAttr("timestamp");
+        })
+    </script>
+<script src="/Scripts/ScriptBundleVisionFrontend.jsbnd?v=o4ZM98ehVrgKmLskQgabKMa0kKQrjPCZcfrko0au7oM1"></script>
+<script src="https://customer.cludo.com/scripts/bundles/search-script.min.js" type="text/javascript"></script>
+<script>
+var CludoSearch;
+(function () {
+
+    var cludoSettings = {
+        customerId: 10000841,
+        engineId: 10001385,
+        searchUrl: 'https://www.siliconvalleypower.com/svp-and-community/search-results',
+        language: 'en',
+        searchInputs: ['searchbox'],
+        type: 'inline'
+    };
+
+CludoSearch= new Cludo(cludoSettings);
+CludoSearch.init();
+})();
+</script>
+<!--[if lte IE 9]>
+<script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+<![endif]-->
+<!-- GovDelivery Subscription Overlay -->
+<script src="https://content.govdelivery.com/overlay/js/9307.js"></script>
+<!-- End GovDelivery Overlay -->
+<script>
+        try { manualRenderMobile(); } catch (err) {}
+    </script>
+<!-- Google Tag Manager -->
+<noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-T7JG59" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'userDataLayer', 'GTM-T7JG59');
+(function (window) {
+    var dataLayer = window.userDataLayer = window.userDataLayer || [];
+    dataLayer.push(
+        {"Env":"LIVE","SessionID":"nd2wsgyggfkuaqj1veoztznm","Identity":"1579bf9944ba4e6a97cb50e8778f5494","OrganizationName":"Silicon Valley Power","LoginUser":"","LoginUserType":"","LoginWebsiteUser":"","LoginMember":""}
+        );
+})(window)
+</script>
+<!-- End Google Tag Manager -->
+<script src="/Scripts/Components/ScriptsFEBundle.jsbnd?v=DfCheCkfQMyVRQ54roqWjDiD8YP5vK1eHdrpyN5Pqmo1"></script>
+<script>
+        $(function() {
+            var sitewrapper = $(".sitewrapper");
+            if(sitewrapper.length && !sitewrapper.hasClass("")) {
+                sitewrapper.addClass("");
+            }          
+        });
+    </script>
+</body>
+</html>
