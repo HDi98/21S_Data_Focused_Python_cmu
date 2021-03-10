@@ -5,12 +5,23 @@ import re
 
 
 class suggestion:
+    filename = ''
+    sheetname = ''
+
     def __init__(self):
         return 
     
-    def readdata(self, filename, sheetname):
+    def setroot(self, filename, sheetname):
+        self.filename = filename
+        self.sheetname = sheetname
+
+    def readdata(self):
         '''clean data for this part should be a xlsx file so we must specify the filename and sheetname'''
-        graph = pd.read_excel(filename, sheet_name=sheetname)
+        try:
+            graph = pd.read_excel(filename, sheet_name=sheetname)
+        except:
+            print("filename or sheetname is wrong, Please check your input")
+            return 
         graph = graph[:-6]  #delete the last six lines which is the comment
         
         graph['ESTIMATED ENERGY USAGE*'] = graph['ESTIMATED ENERGY USAGE*'].apply(lambda x: x.split(' ')[0])
@@ -23,7 +34,7 @@ class suggestion:
             # print(graph['ESTIMATED ENERGY COSTS**'][i])
             
             if '$' in graph['ESTIMATED ENERGY COSTS**'][i]:
-                print("I come into the if statment")
+                # print("I come into the if statment")
                 tmp = graph['ESTIMATED ENERGY COSTS**'][i].split('–$')
                 graph['ESTIMATED ENERGY COSTS**'][i] = (float(tmp[0]) + float(tmp[1])) / 2
             elif graph['ESTIMATED ENERGY COSTS**'][i] == 'ess':            
@@ -32,17 +43,24 @@ class suggestion:
             else:
                 graph['ESTIMATED ENERGY COSTS**'][i] = float(graph['ESTIMATED ENERGY COSTS**'][i])
 
-            # print(graph['ESTIMATED ENERGY COSTS**'][i])
+            # print(graph['ESTIMATED ENERGY USAGE*'][i])
             
-            # next step: clean the estimated energy usage
-
-            
+            # process the estimated energy usage data
+            if '–' in graph['ESTIMATED ENERGY USAGE*'][i]:
+                # print("I come into the if statment")
+                tmp = graph['ESTIMATED ENERGY USAGE*'][i].split('–')
+                graph['ESTIMATED ENERGY USAGE*'][i] = (float(tmp[0]) + float(tmp[1])) / 2
+            else:
+                graph['ESTIMATED ENERGY USAGE*'][i] = float(graph['ESTIMATED ENERGY USAGE*'][i])
+    
         # print(graph['ESTIMATED ENERGY USAGE*'])
         #transfer the data 
 
         return graph
 
     def read_user_option(self):
+        graph = self.readdata()
+
         return 
 
 
@@ -51,5 +69,5 @@ class suggestion:
 if __name__ == '__main__':
     filename = r'D:\project_agg\21S_DFP_project\Big_project\Project_Prototype_DFP_group12.xlsx'
     sheetname = r'Appliance Energy Use_Clean'
-    graph = suggestion().readdata(filename, sheetname)
+    graph = suggestion().readdata()
     print(graph)

@@ -22,25 +22,26 @@ def search_key_word(records, key_word, pattern = 'search'):
     
 
 records = readin(file_loc)
-# part a)
-pat = r'D'
-search_key_word(records, pat)
 
-# part b)
-pat = r'\''
-search_key_word(records, pat)
+# # part a)
+# pat = r'D'
+# search_key_word(records, pat)
 
-# part c)
-pat = r"\""
-search_key_word(records, pat)
+# # part b)
+# pat = r'\''
+# search_key_word(records, pat)
 
-# part d)
-pat = '7.*'
-search_key_word(records, pat, 'match')
+# # part c)
+# pat = r"\""
+# search_key_word(records, pat)
 
-# part e)
-pat = '[rt]$' # use $ to match the end of the string
-search_key_word(records, pat)
+# # part d)
+# pat = '7.*'
+# search_key_word(records, pat, 'match')
+
+# # part e)
+# pat = '[rt]$' # use $ to match the end of the string
+# search_key_word(records, pat)
 
 # part f)
 # a literal period . should be the . in the context?
@@ -48,6 +49,7 @@ search_key_word(records, pat)
 pat = '\d+\\.\d+[^\\.]*\\.'
 search_key_word(records, pat)
 
+'''
 # part g)
 pat = 'r[^g]*g'
 search_key_word(records, pat)
@@ -118,3 +120,4 @@ search_key_word(records, pat)
 pat = 'd[a-zA-Z]?i'
 search_key_word(records, pat)
 
+'''
